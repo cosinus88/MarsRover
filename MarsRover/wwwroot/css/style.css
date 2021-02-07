@@ -1,0 +1,39 @@
+@font-face {
+  font-family: 'rover';
+  src:  url('fonts/rover.eot?v2nwew');
+  src:  url('fonts/rover.eot?v2nwew#iefix') format('embedded-opentype'),
+    url('fonts/rover.ttf?v2nwew') format('truetype'),
+    url('fonts/rover.woff?v2nwew') format('woff'),
+    url('fonts/rover.svg?v2nwew#rover') format('svg');
+  font-weight: normal;
+  font-style: normal;
+  font-display: block;
+}
+
+i {
+  /* use !important to prevent issues with browser extensions that change fonts */
+  font-family: 'rover' !important;
+  speak: never;
+  font-style: normal;
+  font-weight: normal;
+  font-variant: normal;
+  text-transform: none;
+  line-height: 1;
+
+  /* Better Font Rendering =========== */
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+.rv-arrow-up2:before {
+  content: "\ea3a";
+}
+.rv-arrow-right2:before {
+  content: "\ea3c";
+}
+.rv-arrow-down2:before {
+  content: "\ea3e";
+}
+.rv-arrow-left2:before {
+  content: "\ea40";
+}
