@@ -34,6 +34,8 @@ namespace MarsRover
             {
                 app.UseDeveloperExceptionPage();
 
+
+
             }
             else
             {
